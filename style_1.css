@@ -140,14 +140,13 @@ h1, h2, h3, h4, h5, p, a{
     margin-top: 5%;
     color: snow;
 }
-.cardContent span {
+.cardContent span, .cardContent a {
     font-size: 30px;
     margin-top: 5%;
     color: snow;
 }
 .cardContent h2 {
-    font-size: 5%;
-    color: black;
+    color: snow;
 }
 .cardFooter {
     background: snow;
