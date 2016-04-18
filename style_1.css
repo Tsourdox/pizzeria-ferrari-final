@@ -144,6 +144,7 @@ h1, h2, h3, h4, h5, p, a{
     font-size: 30px;
     margin-top: 5%;
     color: snow;
+    text-decoration: none;
 }
 .cardContent h2 {
     color: snow;
@@ -159,6 +160,23 @@ h1, h2, h3, h4, h5, p, a{
     padding-left: 10px;
     padding-right: 10px;
     margin: 0px;
+}
+@media (max-width: 500px) {
+    .cardContent p {
+        font-size: 16px;
+        margin-top: 5%;
+        color: snow;
+    }
+    .cardContent span, .cardContent a {
+        font-size: 22px;
+        margin-top: 5%;
+        color: snow;
+        text-decoration: none;
+    }
+    .cardContent h2 {
+        font-size: 22px;
+        color: snow;
+    }
 }
 /*------Cards------*/
 
