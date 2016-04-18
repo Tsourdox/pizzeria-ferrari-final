@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pizzeria Ferrari</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="jquery-1.12.1.js" /></script>
+        <script src=indexHelper.js></script>
+        <script src=menuHelper.js></script>
+        <script src=grayCode.js></script>
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <!-- W3.CSS-->
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <!-- MyStyle -->
+		<link rel="stylesheet" type="text/css" href="style_1.css">
+        <!-- Font -->
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,600,700' rel='stylesheet' type='text/css'>
+        
+        <!-- Google maps -->
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
+        <script src=googleMaps.js></script>
+	</head>
+
+	<body>
+        <!-- NAVBAR -->
+        <nav id="mainNavBar" class="navbar navbar-fixed-top">
+            <div class="container-fluid mainBackgroundColor">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle md-visible" data-toggle="collapse" data-target="#navbar-opened" aria-expanded="false">
+                        <span class="icon-bar mainDashColor"></span>
+                        <span class="icon-bar mainDashColor"></span>
+                        <span class="icon-bar mainDashColor"></span>
+                    </button>
+                    <span class="navbar-brand">
+                        <span><a href="#mainView" id="brandTitle" onclick="generateHtmlFromMenyArray()" class="mainTextColor">Ferrari</a></span>
+                        <span><img src="ferrari_horse.png" style="height:40px; margin-top:-15px;"/></span>
+                    </span>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-opened">
+                    <ul id="navBarMenu" class="nav navbar-nav">
+                        <li><a href="#contactInfo" class="navItemPrimary mainTextColor" onclick="collapseNavBarMenu()">ÖPPETTIDER & KONTAKT</a></li>
+                        <li><a href="#menuListHeader" class="navItemPrimary mainTextColor" onclick="collapseNavBarMenu()">MENY</a></li>
+                        <!-- Menu titles are generated dynamicly -->
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        
+        <!-- CONTENT -->
+        <div id="content">
+            <div id="mainView" class="container-fluid">
+                <div class="row topRow">
+                    <div class="col-sm-12 col-md-6 topCard">
+                        <div class="container w3-card-4 no-padding" style="width:90%; max-width: 500px;">
+                            <div class="cardContainer">
+                                <div class="cardDummy"></div>
+                                <div class="cardContent">
+                                    <h2>Luncherbjudande 75:-</h2>
+                                    <p>Mån - fre: 11.00 - 15.00</p>
+                                    <p>Salladsbuffé, smör, bröd, kaffe, vatten och 33cl dricka ingår.</p>
+                                </div>
+                            </div>
+                            <div class="cardFooter">
+                                <span>PIZZA</span><span>•</span><span>KEBAB</span><span>•</span><span>GRILL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="contactInfo" class="col-sm-12 col-md-6 topCard">
+                        <div class="container w3-card-4 no-padding" style="width:90%; max-width: 500px;">
+                            <div class="cardContainer">
+                                <div class="cardDummy"></div>
+                                <div class="cardContent">
+                                    <span>Telefon: </span><span>031-88 31 31</span><br><br>
+                                    <h2>Öppetider</h2>
+                                    <p>Mån - fre: 11.00 - 22.00<br>Lör - sön: 12.00 - 22.00</p>
+                                </div>
+                            </div>
+                            <div class="cardFooter">
+                                <span>Ring och beställ eller besök oss</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-3"></div>
+                    <div class="col-sm-12 col-md-6 bottomCard">
+                        <div class="container w3-card-4 no-padding" style="width:90%; max-width: 500px;"">
+                            <div class="cardContainer">
+                                <div class="cardDummy"></div>
+                                <div id="googleMap" class="cardContent"></div>
+                            </div>
+                            <div class="cardFooter">
+                                <span>Välkommen hit!</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3"/></div>
+                </div>
+            </div>
+             
+             
+            <div id="menuListHeader">
+                <h3 id="menuTextColor">MENY</h3>
+                <p class="menu-info my-text-green">Vegetariska rätter i grönt</p>
+            </div>
+            <div id="menuList" class="row">
+                <script>loadMenu()</script>
+            </div>
+        </div>
+                    
+        
+        <footer id="footer" class="container-fluid">
+            <div class="col-md-1 col-lg-2 hidden-sm"></div>
+            <div class="col-sm-4 col-md-3 col-lg-2 text-center">
+                <h3>Kontakt</h3>
+                <a href="tel:+46-31-883131">031 - 88 31 31</a>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4 text-center">
+                <h3>Öppetider</h3>
+                <p>Mån - fre: 11.00 - 22.00<br>Lör - sön: 12.00 - 22.00</p>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 text-center">
+                <h3>Adress</h3>
+                <p>Kaveldunsvägen 1,<br>Mölnlycke</p>
+            </div>
+            <div class="col-md-1 col-lg-2 hidden-sm"></div>
+        </footer>
+	</body>
+</html>

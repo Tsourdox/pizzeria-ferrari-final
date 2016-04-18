@@ -1,0 +1,842 @@
+[
+	{
+		"title": "PIZZOR",
+        "extra": "Tomatsås, pizzaost, mozzarella och parmesanost ingår i alla pizzor. Alla pizzor går att få som barnpizzor(-10kr) och glutenfria pizzor(+20kr).",
+		"items": [
+                    {
+					"namn": "Margarita",
+					"ingredienser": "Tomatsås, ost",
+					"prisVan": "75",
+					"prisFam": "180",
+					"veg": true
+					},
+					{
+					"namn": "Funghi",
+					"ingredienser": "Champinjoner",
+					"prisVan": "75",
+					"prisFam": "180",
+					"veg": true
+					},
+					{
+					"namn": "Vesuvio",
+					"ingredienser": "Skinka",
+					"prisVan": "75",
+					"prisFam": "180",
+					"veg": false
+					},
+					{
+					"namn": "Mama Mia",
+					"ingredienser": "Köttfärs",
+					"prisVan": "80",
+					"prisFam": "190",
+					"veg": false
+					},
+					{
+					"namn": "Calzone",
+					"ingredienser": "(inbakad) Skinka",
+					"prisVan": "80",
+                    "prisFam": "",
+					"veg": false
+					},
+					{
+					"namn": "Altono",
+					"ingredienser": "Tonfisk, lök",
+					"prisVan": "80",
+					"prisFam": "190",
+					"veg": false
+					},
+					{
+					"namn": "Capriccosa",
+					"ingredienser": "Skinka, champinjoner",
+					"prisVan": "80",
+					"prisFam": "190",
+					"veg": false
+					},
+					{
+					"namn": "Hawaii",
+					"ingredienser": "Skinka, ananas",
+					"prisVan": "80",
+					"prisFam": "190",
+					"veg": false
+					},
+					{
+					"namn": "Cannibale",
+					"ingredienser": "Skinka, köttfärs",
+					"prisVan": "80",
+					"prisFam": "190",
+					"veg": false
+					},
+					{
+					"namn": "Big Ben",
+					"ingredienser": "Bacon, lök, ägg",
+					"prisVan": "80",
+					"prisFam": "190",
+					"veg": false
+					},
+					{
+					"namn": "Salami",
+					"ingredienser": "Salami, paprika, lök, oliver",
+					"prisVan": "85",
+					"prisFam": "200",
+					"veg": false
+					},
+					{
+					"namn": "Vegetariana",
+					"ingredienser": "Champinjoner, ananas, lök, paprika, oliver",
+					"prisVan": "85",
+					"prisFam": "200",
+					"veg": true
+					},
+					{
+					"namn": "Picante",
+					"ingredienser": "Köttfärs, lök, piri-piri, vitlökssås",
+					"prisVan": "85",
+					"prisFam": "0",
+					"veg": false
+					},
+					{
+					"namn": "Mexicana",
+					"ingredienser": "Köttfärs, lök, paprika, vitlök, piri-piri",
+					"prisVan": "85",
+					"prisFam": "200",
+					"veg": false
+					},
+					{
+					"namn": "Tomaso",
+					"ingredienser": "Skinka, räkor",
+					"prisVan": "85",
+					"prisFam": "200",
+					"veg": false
+					},
+					{
+					"namn": "Marinara",
+					"ingredienser": "Räkor, musslor",
+					"prisVan": "85",
+					"prisFam": "200",
+					"veg": false
+					},
+					{
+					"namn": "Bahamas",
+					"ingredienser": "Skinka, ananas, banan, curry",
+					"prisVan": "85",
+					"prisFam": "200",
+					"veg": false
+					},
+					{
+					"namn": "Napoli",
+					"ingredienser": "Skinka, ananas, räkor",
+					"prisVan": "85",
+					"prisFam": "200",
+					"veg": false
+					},
+					{
+					"namn": "Palermo",
+					"ingredienser": "Skinka, champinjoner, räkor",
+					"prisVan": "85",
+					"prisFam": "200",
+					"veg": false
+					},
+					{
+					"namn": "Quattro Stagioni",
+					"ingredienser": "Skinka, champinjoner, räkor, musslor",
+					"prisVan": "90",
+					"prisFam": "210",
+					"veg": false
+					},
+					{
+					"namn": "Matador",
+					"ingredienser": "Skinka, lök, gorgonzola, färsk tomat, piri-piri, vitlökssås",
+					"prisVan": "90",
+					"prisFam": "210",
+					"veg": false
+					},
+					{
+					"namn": "Omega",
+					"ingredienser": "Skinka, oxfilé, ägg, bearnisesås, peperoni",
+					"prisVan": "90",
+					"prisFam": "210",
+					"veg": false
+					},
+					{
+					"namn": "Formaggi",
+					"ingredienser": "Mozzarellaost, gorgonzola, vit ost, vitlök, pesto, färsk tomat",
+					"prisVan": "90",
+					"prisFam": "210",
+					"veg": true
+					},
+					{
+					"namn": "Gorgonzola",
+					"ingredienser": "Köttfärs, champinjoner, lök, paprika, gorgonzola, piri-piri",
+					"prisVan": "90",
+					"prisFam": "210",
+					"veg": false
+					},
+					{
+					"namn": "Kebabpizza",
+					"ingredienser": "Kebabkött, peperoni, kebabsås",
+					"prisVan": "90",
+					"prisFam": "210",
+					"veg": false
+					},
+					{
+					"namn": "Calzone Special",
+					"ingredienser": "(inbakad) Skinka, räkor, champinjoner",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+					},
+					{
+					"namn": "Bari",
+					"ingredienser": "Köttfärs, salami, bacon, lök, champinjoner, peperoni",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "Robin Special",
+					"ingredienser": "Kebabkött, lök, färsk tomat, peperoni, vit ost, tzatziki",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "Pizza Special",
+					"ingredienser": "Kebabkött, lök, champinjoner, färsk tomat, peperoni, piri-piri, kebabsås",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "San Remo",
+					"ingredienser": "(halvinbakad) Kebabkött, ananas, champinjoner, färsk tomat, kebabsås",
+					"prisVan": "95",
+					"prisFam": "",
+					"veg": false
+					},
+					{
+					"namn": "Super",
+					"ingredienser": "Kebabkött, skinka, lök, färsk tomat, peperoni, vitlökssås",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "Testaros",
+					"ingredienser": "Kebabkött, isbergssallad, gurka, färsk tomat, peperoni, kebabsås, lök",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "Flyganade Jacob",
+					"ingredienser": "Kyckling, ananas, jordnötter, banan, curry",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "Bombay Special",
+					"ingredienser": "Kyckling, ananas, banan, curry, kebabsås",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "Pizza Oscar",
+					"ingredienser": "Oxfilé, räkor, sparris, bearnaisesås",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "Africana",
+					"ingredienser": "Oxfilé, ananas, banan, jordnötter, curry",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "Al Capone",
+					"ingredienser": "Skinka, champonjoner, lök, bacon, salami, ägg, piri-piri",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "Reale",
+					"ingredienser": "Oxfilé, ägg, bearnaisesås",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "Viking Båt",
+					"ingredienser": "(halvinbakad) Oxfilé, champinjoner, färsk tomat, piri-piri, bearnaisesås",
+					"prisVan": "95",
+					"prisFam": "",
+					"veg": false
+					},
+					{
+					"namn": "Ciao Ciao",
+					"ingredienser": "(inbakad) Oxfilé, lök, champinjoner, vitlök",
+					"prisVan": "95",
+					"prisFam": "",
+					"veg": false
+					},
+					{
+					"namn": "Milano",
+					"ingredienser": "Oxfilë, champinjoner, gorgonzola, färsk tomat",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "Amadeus",
+					"ingredienser": "Oxfilé, lök, champinjoner, vitlökssås",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "Vagabond",
+					"ingredienser": "Oxfilé, köttfärs, lök, piri-piri, vitlök",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "Ferrari",
+					"ingredienser": "Kräftstjärtar, räkor, sparris, piri-piri, vitlökssås",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "Frutti Di Madre",
+					"ingredienser": "Kräftstjärtar, räkor, banan, ananas, curry, kebabsås",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "Kungs Pizza",
+					"ingredienser": "Oxfilé, lök, vit ost, färsk tomat, vitlök, peperoni",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "La Bella",
+					"ingredienser": "Skinka, lök, bacon, köttfärs, salami, vitlökssås",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "Verde",
+					"ingredienser": "Oliver, vitlök, vit ost, färsk tomat, ruccola",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": true
+					},
+					{
+					"namn": "Favoriten",
+					"ingredienser": "Kebabkött, bacon, bearnaisesås",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "Kycklingpizza",
+					"ingredienser": "Kyckling, champinjoner, peperoni, kebabsås",
+					"prisVan": "95",
+					"prisFam": "220",
+					"veg": false
+					},
+					{
+					"namn": "Primavera",
+					"ingredienser": "Oxfilé, köttfärs, kräftstjärtar, sparris, färsk tomat, piri-piri, vitlökssås",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "Åsa",
+					"ingredienser": "Oxfilé, champinjoner, lök, paprika, gorgonzola, vit ost, vitlök. färsk tomat",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "Husets Pizza",
+					"ingredienser": "Kebabkött, kyckling, vitost, isbergssallad, tomat, gurka, peperoni, kebabsås",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "Skaldjur Special",
+					"ingredienser": "Kräftstjärtar, räkor, tonfisk, färsk tomat, piri-piri, vitlökssås",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "Gondola",
+					"ingredienser": "Mozzarellaost, skinka, oxfilé, köttfärs, färsk tomat, vitlök, bearnaisesås",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "La Mafia",
+					"ingredienser": "Mozzarellaost, kyckling, bacon, köttfärs, ananas, pesto, bearnaisesås",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "Enzo",
+					"ingredienser": "Mozzarellaost, kyckling, oxfilé, pesto, färsk tomat, vitlök",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "Darin Special",
+					"ingredienser": "Mozzarellaost, oxfilé, bacon, peperoni, bearnaisesås",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "Parma",
+					"ingredienser": "Mozzarellaost, vit ost, färsk paprika, lufttorkad skinka, färsk tomat, pesto, vitlök",
+					"prisVan": "100",
+					"prisFam": "230",
+					"veg": false
+					},
+					{
+					"namn": "Italiano",
+					"ingredienser": "Mozzarellaost, kyckling, pesto, lufttorkad skinka, gorgonzola",
+					"prisVan": "100",
+					"prisFam": "230",
+					"veg": false
+					},
+					{
+					"namn": "La Fantastica",
+					"ingredienser": "Lufttorkad skinka, ruccola",
+					"prisVan": "100",
+					"prisFam": "230",
+					"veg": false
+					},
+					{
+					"namn": "Ufo",
+					"ingredienser": "(dubbel inbakad) Skinka, champinjoner, lök, vitlök, gorgonzola",
+					"prisVan": "100",
+					"prisFam": "230",
+					"veg": false
+					},
+					{
+					"namn": "Amore",
+					"ingredienser": "Gorgonzola, pesto, lufttorkad skinka, pesto",
+					"prisVan": "100",
+					"prisFam": "230",
+					"veg": false
+					},
+					{
+					"namn": "Bagaren Special",
+					"ingredienser": "Kebabkött, sallad, lök, gurka, tomat, pommes, vitlökssås",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "Jägare",
+					"ingredienser": "Skinka, oxfilé, kantareller, lök, bacon, vitlök, köttfärs, bearnaisesås",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "Gladiator",
+					"ingredienser": "Créme frache, oxfilé, kantareller, ruccola, mozzarella, färsk tomat, vitlök, rödlök",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "Gudfader",
+					"ingredienser": "Créme frache, kräftor, räkor, piri-piri, mozzarella, rödlök, färsk tomat, ruccola, vitlökssås",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "Imparator",
+					"ingredienser": "Créme frache, mozzarella, champinjoner, lufttorkad skinka, ruccola, olivolja, peperoni",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "Barca",
+					"ingredienser": "Créme frache, mozzzarella, gorgonzola, pesto, ruccola, färsk tomat, rödlök, oliver",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": true
+					},
+					{
+					"namn": "Olympus",
+					"ingredienser": "Créme frache, mozzzarella, vitost, lufttorkad skinka, rödlök, isbergssallad, färsk tomat, gurka, vitlökssås",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "Salchinchon",
+					"ingredienser": "Pesto, salami, parmesan, kronärtskocka, färsk tomat",
+					"prisVan": "100",
+					"prisFam": "230",
+					"veg": false
+					},
+					{
+					"namn": "Italia",
+					"ingredienser": "Parmesan, parma, kronärtskocka, mozzarella, olivolja, ruccola, soltorkade tomater",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "Pomadori",
+					"ingredienser": "Soltorkade tomater, kronärtskocka, parmesan, mozzarella, ruccola, oliver, pesto",
+					"prisVan": "100",
+					"prisFam": "230",
+					"veg": true
+					},
+					{
+					"namn": "Nacho Pizza",
+					"ingredienser": "Köttfärs, jalapeño, parmesan, nachochips, majs",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "Acapulco",
+					"ingredienser": "Oxfilé, jalapeño, färsk tomat, vitlök, tacosås, rödlök, paprika, champinjoner",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": false
+					},
+					{
+					"namn": "Rodi Special",
+					"ingredienser": "Mozzarella, gorgonzola, vitost, parmesan, soltorkade tomater, kronärtskocka, ruccola, olivolja",
+					"prisVan": "105",
+					"prisFam": "240",
+					"veg": true
+					}
+				]
+	},
+	{
+		"title": "KEBABRÄTTER",
+        "extra": "Tomat, gurka, sallad, peperoni och lök ingår till alla kebabrätter",
+		"items": [
+					{
+					"namn": "Standard i pitabröd",
+					"ingredienser": "Kebabkött, kebabsås",
+					"prisVan": "80",
+					"prisFam": "0",
+					"veg": false
+					},
+					{
+					"namn": "Grekisk i pitabröd",
+					"ingredienser": "Vit ost, tzatziki, kebabkött",
+					"prisVan": "85",
+					"prisFam": "0",
+					"veg": false
+					},
+                    {
+					"namn": "Mexikansk i pitabröd",
+					"ingredienser": "Majs, stark sås, kebabkött",
+					"prisVan": "85",
+					"prisFam": "0",
+					"veg": false
+					},
+                    {
+					"namn": "Kebabrulle",
+					"ingredienser": "Kebabkött, kebabsås",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+					},
+                    {
+					"namn": "Kebabtallrik",
+					"ingredienser": "Pommes, kebabkött, kebabsås",
+					"prisVan": "95",
+					"prisFam": "0",
+					"veg": false
+					},
+                    {
+					"namn": "Kebabrulle mix",
+					"ingredienser": "Kyckling, kebabkött, kebabsås",
+					"prisVan": "95",
+					"prisFam": "0",
+					"veg": false
+					},
+                    {
+					"namn": "Kebabtallrik mix",
+					"ingredienser": "Kyckling, pommes, tzatziki, kebabkött",
+					"prisVan": "95",
+					"prisFam": "0",
+					"veg": false
+					},
+                    {
+					"namn": "Kyckling i pita",
+					"ingredienser": "Kyckling, kebabsås",
+					"prisVan": "80",
+					"prisFam": "0",
+					"veg": false
+					},
+                    {
+					"namn": "Kycklingrulle",
+					"ingredienser": "Kyckling, kebabsås",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+					},
+                    {
+					"namn": "Kycklingtallrik",
+					"ingredienser": "Kyckling, pommes, kebabsås",
+					"prisVan": "95",
+					"prisFam": "0",
+					"veg": false
+					},
+                    {
+					"namn": "Vegetariskrulle",
+					"ingredienser": "Vit ost, majs, vitlökssås",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": true
+					},
+                    {
+					"namn": "Pommesrulle",
+					"ingredienser": "Kebabkött, pommes, kebabsås",
+					"prisVan": "95",
+					"prisFam": "0",
+					"veg": false
+					}
+				]
+	},
+    {
+		"title": "SÅSER",
+        "extra": "Kebabsås, vitlökssås, stark sås, tzatziki eller bearnisesås",
+		"items": [
+                    {
+					"namn": "Sås i burk",
+					"ingredienser": "",
+					"prisVan": "10",
+					"prisFam": "0",
+					"veg": true
+					}
+                ]
+	},
+    {
+		"title": "GRILL",
+        "extra": "Ost och bacon kostar 10kr extra",
+		"items": [
+                    {
+					"namn": "Pommes tallrik",
+					"ingredienser": "",
+					"prisVan": "40",
+					"prisFam": "0",
+					"veg": true
+					},
+                    {
+					"namn": "Hamburgare 90gr.",
+					"ingredienser": "Med bröd, sallad, gurka, tomat, lök, ketchup",
+					"prisVan": "50",
+					"prisFam": "0",
+					"veg": false
+					},
+                    {
+					"namn": "Hamburgertallrik 90gr.",
+					"ingredienser": "Med bröd, pommes, sallad, gurka, tomat, lök, ketchup",
+					"prisVan": "75",
+					"prisFam": "0",
+					"veg": false
+					},
+                    {
+					"namn": "Hamburgare 150gr.",
+					"ingredienser": "Med bröd, sallad, gurka, tomat, lök, ketchup",
+					"prisVan": "65",
+					"prisFam": "0",
+					"veg": false
+					},
+                    {
+					"namn": "Hamburgertallrik 150gr.",
+					"ingredienser": "Med bröd, pommes, sallad, gurka, tomat, lök, ketchup",
+					"prisVan": "85",
+					"prisFam": "0",
+					"veg": false
+					}
+                ]
+	},
+    {
+		"title": "PASTA RÄTTER",
+        "extra": "",
+		"items": [
+                    {
+                    "namn": "Carbonara",
+					"ingredienser": "Bacon, äggula, svartpeppar, grädde",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+                    },
+                    {
+                    "namn": "Lasagne",
+					"ingredienser": "Klassisk itaiensk hemlagad lasagne",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+                    },
+                    {
+                    "namn": "Lasagne special",
+					"ingredienser": "Champinjoner, gorgonzola, vitlök, stark",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+                    },
+                    {
+                    "namn": "Pasta romana",
+					"ingredienser": "Kyckling, champinjoner, vitlök, tomatsås, grädde",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+                    },
+                    {
+                    "namn": "Pasta saporite",
+					"ingredienser": "Oxfilé, champinjoner, vitlök, tomatsås, grädde",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+                    },
+                    {
+                    "namn": "Pasta contadine",
+					"ingredienser": "Oxfilé, champinjoner, lök, gorgonzola, grädde",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+                    },
+                    {
+                    "namn": "Pasta pollo",
+					"ingredienser": "Kyckling, gorgonzola, pesto, f.tomat, grädde",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+                    },
+                    {
+                    "namn": "Pasta indiana",
+					"ingredienser": "Kyckling, ananas, banan, jordnötter, curry, grädde",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+                    },
+                    {
+                    "namn": "Pasta riviera",
+					"ingredienser": "Kräftstjärtar, tomatsås, grädde, räkor, paprika, vitlök, piri-piri",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+                    }
+                ]
+	},
+    {
+		"title": "SALLADER",
+        "extra": "Isbergssallad, tomat, gurka och bröd ingår i alla sallader",
+		"items": [
+                    {
+                    "namn": "Amerikansk sallad",
+					"ingredienser": "Skinka, ost, ananas, majs, ägg, rhode islandsås",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+                    },
+                    {
+                    "namn": "Tonfisksallad",
+					"ingredienser": "Tonfisk, lök, oliver, ananas, ägg, rhode islandsås",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+                    },
+                    {
+                    "namn": "Kycklingsallad",
+					"ingredienser": "Kyckling, champinjoner, majs, ananas, rhode islandsås",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+                    },
+                    {
+                    "namn": "Grekisk sallad",
+					"ingredienser": "Vit ost, lök, oliver, peperoni, tzatziki",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": true
+                    },
+                    {
+                    "namn": "Kebabsallad",
+					"ingredienser": "Kebabkött, lök, peperoni, kebabsås",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+                    },
+                    {
+                    "namn": "Du Chef sallad",
+					"ingredienser": "Räkor, skinka, ost, champinjoner, ägg, rhode islandsås",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+                    },
+                    {
+                    "namn": "Räksallad",
+					"ingredienser": "Räkor, majs, ananas, sparris, ägg, rhode islandsås",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+                    },
+                    {
+                    "namn": "Skaldjurssallad",
+					"ingredienser": "Kräftstjärtar, räkor, musslor, champinjoner, rhode islandsås",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+                    },
+                    {
+                    "namn": "Blandadsallad",
+					"ingredienser": "Kebabkött, kyckling, vit ost, peperoni, tzatziki, kebabsås",
+					"prisVan": "90",
+					"prisFam": "0",
+					"veg": false
+                    }
+                ]
+	},
+    {
+		"title": "FALAFEL",
+        "extra": "",
+		"items": [
+                    {
+					"namn": "Falafelsallad",
+					"ingredienser": "Falafel, sallad, gurka, tomat, lök, peperoni, kebabsås",
+					"prisVan": "85",
+					"prisFam": "0",
+					"veg": true
+					},
+					{
+					"namn": "Falafeltallrik",
+					"ingredienser": "Falafel med pommes, sallad, gurka, tomat, lök, peperoni, kebabsås",
+					"prisVan": "85",
+					"prisFam": "0",
+					"veg": true
+					}
+                ]
+	}
+]
