@@ -161,6 +161,9 @@ h1, h2, h3, h4, h5, p, a{
     padding-right: 10px;
     margin: 0px;
 }
+#opening-header { 
+    margin-top: 20px;
+}
 @media (max-width: 500px) {
     .cardContent p {
         font-size: 16px;
@@ -168,13 +171,13 @@ h1, h2, h3, h4, h5, p, a{
         color: snow;
     }
     .cardContent span, .cardContent a {
-        font-size: 22px;
+        font-size: 24px;
         margin-top: 5%;
         color: snow;
         text-decoration: none;
     }
     .cardContent h2 {
-        font-size: 22px;
+        font-size: 24px;
         color: snow;
     }
 }

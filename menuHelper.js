@@ -150,6 +150,7 @@ function generateMenuList(nrOfColumns) {
         for (m=0; m < savedColumnMappings[x].length; m++) {
             var menuItem = savedColumnMappings[x][m]
             var menu = 'menu' + savedColumnMappings[x][m]
+            var counter = 0
             
             // Menu title
             out += '<div id="' + menu + '" class="menu-container">' + 
@@ -193,7 +194,7 @@ function generateMenuList(nrOfColumns) {
                     out += 	
                                 '<li class="listItem">' +
                                     '<span id="menuItemSpan">' +
-                                        '<h5 id="menuItemName" ' + titleColor + '>' + [counter] + '. ' + items[i].namn + '</h5>' +
+                                        '<h5 id="menuItemName" ' + titleColor + '>' + counter + '. ' + items[i].namn + '</h5>' +
                                         '<span class="menuItemPriceSpanTitle">' +
                                             '<h5 class="menuItemPrice">' + prisVan + '</h5>' +
                                             '<h5 class="' + menuItemPrice + '">' + prisFam + '</h5>' +
@@ -205,7 +206,7 @@ function generateMenuList(nrOfColumns) {
                     out += 	
                                 '<li class="listItem">' +
                                     '<span id="menuItemSpan">' +
-                                        '<h5 id="menuItemName" ' + titleColor + '>' + [counter] + '. ' + items[i].namn + '</h5>' +
+                                        '<h5 id="menuItemName" ' + titleColor + '>' + counter + '. ' + items[i].namn + '</h5>' +
                                         '<h5 class="menuItemPrice">' + items[i].prisVan + ':-</h5>' +
                                     '</span>' +
                                     '<p class="menuItemDescription">' + items[i].ingredienser + '</p>' +
