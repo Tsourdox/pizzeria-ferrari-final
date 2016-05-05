@@ -6,14 +6,15 @@ function initialize() {
         zoom:15,
         mapTypeId:google.maps.MapTypeId.ROADMAP
     };
-    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp)
     var marker = new google.maps.Marker({ position:myCenter });
-    var infowindow = new google.maps.InfoWindow({ content:"Kaveldunsvägen 1" });
+    var infowindow = new google.maps.InfoWindow({ content:"Kaveldunsvägen 1" })
     
-    marker.setMap(map);
-    infowindow.open(map, marker);
+    map.setOptions({draggable: false})
+    marker.setMap(map)
+    infowindow.open(map, marker)
     google.maps.event.addListener(marker, 'click', function() {
-        infowindow.open(map, marker);
+        infowindow.open(map, marker)
     });
 }
-google.maps.event.addDomListener(window, 'load', initialize);
+google.maps.event.addDomListener(window, 'load', initialize)
