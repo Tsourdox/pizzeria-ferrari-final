@@ -165,10 +165,6 @@ h1, h2, h3, h4, h5, p, a{
     margin-top: 20px;
 }
 @media (max-width: 420px) {
-    .bottomCard {
-        padding-top: 60px;
-        margin-bottom: 40px;
-    }
     .cardContent {
         padding: 8%;
     }
