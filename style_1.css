@@ -164,21 +164,50 @@ h1, h2, h3, h4, h5, p, a{
 #opening-header { 
     margin-top: 20px;
 }
-@media (max-width: 500px) {
+@media (max-width: 420px) {
+    .bottomCard {
+        padding-top: 60px;
+        margin-bottom: 40px;
+    }
+    .cardContent {
+        padding: 8%;
+    }
     .cardContent p {
         font-size: 16px;
-        margin-top: 5%;
-        color: snow;
     }
     .cardContent span, .cardContent a {
         font-size: 24px;
-        margin-top: 5%;
-        color: snow;
-        text-decoration: none;
     }
     .cardContent h2 {
         font-size: 24px;
-        color: snow;
+    }
+    .cardFooter {
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    .cardFooter p, .cardFooter span {
+        font-size: 16px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+@media (max-width: 332px) {
+    .cardContent {
+        padding: 5%;
+    }
+    .cardContent p {
+        font-size: 14px;
+    }
+    .cardContent span, .cardContent a {
+        font-size: 20px;
+    }
+    .cardContent h2 {
+        font-size: 20px;
+    }
+    .cardFooter p, .cardFooter span {
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 /*------Cards------*/
