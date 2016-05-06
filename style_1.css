@@ -56,9 +56,6 @@ h1, h2, h3, h4, h5, p, a{
 #mainNavBar .mainDashColor {
     background-color: snow;
 }
-#mainNavBar button:hover .mainDashColor {
-    background-color: #980f18;
-}
 #mainNavBar button {
     border: none;
     border-color: snow;

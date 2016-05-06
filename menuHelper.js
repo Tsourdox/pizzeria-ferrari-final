@@ -1,6 +1,4 @@
 var handleMediaChange = function (mediaQueryList) {
-    console.log(mediaQueryList.media)
-    console.log(mediaQueryList.matches)
     switch (mediaQueryList.media) {
         case "(max-width: 991px)":
             if (mediaQueryList.matches) {
@@ -90,7 +88,6 @@ function generateMenuList(nrOfColumns) {
     var nrOfGrayCodes = getNrOfGrayCodes(nrOfColumns)
     
     // Map menu to columns
-    console.log("Combinations: " + nrOfGrayCodes)
     for (gc=0; gc < nrOfGrayCodes; gc++) {
         var currentValue = 0
         var currentColumn = 0

@@ -4,7 +4,7 @@
 		<title>Pizzeria Ferrari | Mölnlycke</title>
 		<meta charset="utf-8"/>
         <meta name="Description" CONTENT="Pizzeria Ferrari i Mölnlycke. Telefon: 031-883131 Öppetider: Mån-Fre: 11.00 - 22.00, Lör-Sön: 12:00 - 22.00">
-        <mete name="Robots" CONTENT="index, follow">
+        <meta name="Robots" CONTENT="index, follow">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="jquery-1.12.1.js" /></script>
         <script src=indexHelper.js></script>
@@ -33,13 +33,13 @@
             <div class="container-fluid mainBackgroundColor">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle md-visible" data-toggle="collapse" data-target="#navbar-opened" aria-expanded="false">
+                    <button type="button" class="navbar-toggle md-visible" data-toggle="collapse" data-target="#navbar-opened" onclick="switchDashColor()" aria-expanded="false">
                         <span class="icon-bar mainDashColor"></span>
                         <span class="icon-bar mainDashColor"></span>
                         <span class="icon-bar mainDashColor"></span>
                     </button>
                     <span class="navbar-brand">
-                        <span><a href="#mainView" id="brandTitle" onclick="generateHtmlFromMenyArray()" class="mainTextColor">Ferrari</a></span>
+                        <span><a href="#mainView" id="brandTitle" class="mainTextColor">Ferrari</a></span>
                         <span><img src="ferrari_horse.png" style="height:40px; margin-top:-15px;"/></span>
                     </span>
                 </div>
