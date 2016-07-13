@@ -26,22 +26,22 @@ h1, h2, h3, h4, h5, p, a{
 
 
 /*------NavBar------*/
-#mainNavBar {
+#main-navbar {
     margin-bottom: 0px;
     border: none;
     box-shadow: 0 1px 15px rgba(53, 10, 11, 0.4);
 }
-.mainBackgroundColor {
+.main-background-color {
     background-color: #e90a15;
 }
-#brandTitle {
+#brand-title {
     font-size: 28px;
     text-decoration: none;
 }
-#mainNavBar .mainTextColor  {
+#main-navbar .main-text-color  {
     color: snow;
 }
-#mainNavBar button:hover {
+#main-navbar button:hover {
     background: none;
 }
 #navbar-opened {
@@ -53,10 +53,10 @@ h1, h2, h3, h4, h5, p, a{
 
 
 /*------NavButton------*/
-#mainNavBar .mainDashColor {
+#main-navbar .main-dash-color {
     background-color: snow;
 }
-#mainNavBar button {
+#main-navbar button {
     border: none;
     border-color: snow;
 }
@@ -66,26 +66,26 @@ h1, h2, h3, h4, h5, p, a{
 
 
 /*------NavMenu------*/
-#navBarMenu {
+#navbar-menu {
     height: 100%;
     background: #e90a15;
     margin-bottom: 0px;
     margin-top: 0px;
 }
-#mainNavBar li:hover .mainTextColor  {
+#main-navbar li:hover .main-text-color  {
     background-color: rgba(255, 255, 255, 0.2);
 }
-.navItemPrimary{
+.nav-item-primary{
     font-size: 22px;
 }
-.navItemSecondary{
+.nav-item-secondary{
     text-indent: 10px;
 }
 @media (min-width: 768px) {
-    #navBarMenu {
+    #navbar-menu {
         background: #e90a15;
     }
-    .navItemPrimary {
+    .nav-item-primary {
         background: #e90a15;
         background-color: #e90a15;
     }
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, p, a{
 /*------NavMenu------*/
 
 
-#mainView {
+#main-view {
     padding-top: 50px;
     margin-bottom: -50px;
     background-image: url("pizza_1.jpg");
@@ -102,26 +102,26 @@ h1, h2, h3, h4, h5, p, a{
 }
 
 /*------Cards------*/
-.topRow {
+.top-row {
     margin-top: -50px;
 }
-.topCard {
+.top-card {
     padding-top: 90px;
     margin-bottom: -50px;
 }
-.bottomCard {
+.bottom-card {
     padding-top: 90px;
     margin-bottom: 40px;
 }
-.cardContainer {
+.card-container {
     display: inline-block;
     position: relative;
     width: 100%;
 }
-.cardDummy {
+.card-dummy {
     margin-top: 65%; /* 4:3 aspect ratio */
 }
-.cardContent {
+.card-content {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -132,27 +132,27 @@ h1, h2, h3, h4, h5, p, a{
     padding: 10%;
     text-align: center;
 }
-.cardContent p {
+.card-content p {
     font-size: 20px;
     margin-top: 5%;
     color: snow;
 }
-.cardContent span, .cardContent a {
+.card-content span, .card-content a {
     font-size: 30px;
     margin-top: 5%;
     color: snow;
     text-decoration: none;
 }
-.cardContent h2 {
+.card-content h2 {
     color: snow;
 }
-.cardFooter {
+.card-footer {
     background: snow;
     padding-top: 10px;
     padding-bottom: 15px;
     text-align: center;
 }
-.cardFooter p, .cardFooter span {
+.card-footer p, .card-footer span {
     font-size: 18px;
     padding-left: 10px;
     padding-right: 10px;
@@ -162,42 +162,42 @@ h1, h2, h3, h4, h5, p, a{
     margin-top: 20px;
 }
 @media (max-width: 420px) {
-    .cardContent {
+    .card-content {
         padding: 8%;
     }
-    .cardContent p {
+    .card-content p {
         font-size: 16px;
     }
-    .cardContent span, .cardContent a {
+    .card-content span, .card-content a {
         font-size: 24px;
     }
-    .cardContent h2 {
+    .card-content h2 {
         font-size: 24px;
     }
-    .cardFooter {
+    .card-footer {
         padding-top: 5px;
         padding-bottom: 10px;
     }
-    .cardFooter p, .cardFooter span {
+    .card-footer p, .card-footer span {
         font-size: 16px;
         padding-left: 8px;
         padding-right: 8px;
     }
 }
 @media (max-width: 332px) {
-    .cardContent {
+    .card-content {
         padding: 5%;
     }
-    .cardContent p {
+    .card-content p {
         font-size: 14px;
     }
-    .cardContent span, .cardContent a {
+    .card-content span, .card-content a {
         font-size: 20px;
     }
-    .cardContent h2 {
+    .card-content h2 {
         font-size: 20px;
     }
-    .cardFooter p, .cardFooter span {
+    .card-footer p, .card-footer span {
         font-size: 15px;
         padding-left: 5px;
         padding-right: 5px;
@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, p, a{
 }
 
 /*------FoodMenuList------*/
-#menuListHeader {
+#menu-list-header {
     margin-bottom: -50px;
     padding-top: 50px;
     text-align: center;
@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, p, a{
     font-size: 18px;
     margin-top: 4px;
 }
-#menuTextColor {
+#menu-text-color {
     margin: 0px;
     padding: 10px;
     padding-left: 18px;
@@ -228,11 +228,11 @@ h1, h2, h3, h4, h5, p, a{
     background: #e90a15;
     font-weight: normal;
 }
-#menuList {
+#menu-list {
     margin: 0px; /* Bootstrap lägger till margin?? (sidan blir för bred) */
     padding: 0px; /* Bootstrap lägger till padding?? (sidan blir för bred) */
 }
-#menuList ul {
+#menu-list ul {
     margin-bottom: 0px;
 }
 .menu-column {
@@ -243,31 +243,31 @@ h1, h2, h3, h4, h5, p, a{
 .menu-container {
     padding-top: 50px; /* Så det går att hoppa från navbaren */
 }
-#menuHeader {
+#menu-header {
     margin: 0px;
     padding: 10px;
     padding-left: 0px; 
     color: #e90a15;
     font-weight: normal;
 }
-.menuHeaderPrice {
+.menu-header-price {
     padding-top: 5px;
     color: #e90a15;
     font-weight: normal;
     font-size: 14px;
 }
-#menuHeaderContiner {
+#menu-header-continer {
     padding-left: 18px;
     padding-right: 18px;
 }
-#menuItemSpanTitle {
+#menu-item-span-title {
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding-right: 16px;
     border-bottom: 1px solid #e90a15;
 }
-.menuItemPriceSpanTitle {
+.menu-item-price-span-title {
 	display: flex;
     justify-content: space-between;
     width: 80px;
@@ -276,12 +276,12 @@ h1, h2, h3, h4, h5, p, a{
 
 
 
-.menuExtra {
+.menu-extra {
 	color: #e90a15;
     width: 85%;
     font-weight: normal;
 }
-.listExtra {
+.list-extra {
     padding: 0px;
     margin-left: 18px;
     margin-right: 18px;
@@ -290,7 +290,7 @@ h1, h2, h3, h4, h5, p, a{
 }
 
 /*------FoodMenuListItem------*/
-.listItem {
+.list-item {
     padding: 0px;
     margin-left: 30px;
     margin-right: 30px;
@@ -298,28 +298,28 @@ h1, h2, h3, h4, h5, p, a{
     list-style: none;
     border-bottom: 1px solid #f6f1f1;
 }
-#menuItemSpan {
+#menu-item-span {
 	display: flex;
     justify-content: space-between;
     width: 100%;
 }
-#menuItemName {
+#menu-item-name {
 	padding-right: 20px;
     font-weight: normal;
 }
-.menuItemPriceSpan {
+.menu-item-price-span {
 	display: flex;
     justify-content: space-between;
     width: 80px;
 }
-.menuItemPrice {
+.menu-item-price {
 	color: #54090e;
 }
-.menuItemCross {
+.menu-item-cross {
     color: #e90a15;
     margin-right: 13px;
 }
-.menuItemDescription {
+.menu-item-description {
 	color: #54090e;
     width: 85%;
 }

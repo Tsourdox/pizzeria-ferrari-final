@@ -1,6 +1,5 @@
-var myCenter = new google.maps.LatLng(57.651936, 12.138159);
-
-function initialize() {
+function initMap() {
+    var myCenter = new google.maps.LatLng(57.651936, 12.138159);
     var mapProp = {
         center:myCenter,
         zoom:15,
@@ -17,4 +16,3 @@ function initialize() {
         infowindow.open(map, marker)
     });
 }
-google.maps.event.addDomListener(window, 'load', initialize)

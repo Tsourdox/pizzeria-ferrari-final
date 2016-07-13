@@ -32,7 +32,7 @@ mqlLG.addListener(handleMediaChange);
 
 
 function emptyMenu() {
-    $("#menuList").empty()
+    $("#menu-list").empty()
 }
 
 function loadMenu() {
@@ -53,9 +53,9 @@ function generateNavBarMenuItems() {
         var menu = 'menu' + m;
         
         var navBarItem = '<li class="hidden-sm hidden-md hidden-lg">' +
-                            '<a href="#' + menu + '" onclick="collapseNavBarMenu()" class="navItemSecondary mainTextColor">' + menuArray[m].title + '</a>' +
+                            '<a href="#' + menu + '" onclick="collapseNavBarMenu()" class="nav-item-secondary main-text-color">' + menuArray[m].title + '</a>' +
                          '</li>';
-        document.getElementById("navBarMenu").innerHTML += navBarItem;
+        document.getElementById("navbar-menu").innerHTML += navBarItem;
     }
 }
 
@@ -151,13 +151,13 @@ function generateMenuList(nrOfColumns) {
             
             // Menu title
             out += '<div id="' + menu + '" class="menu-container">' + 
-                        '<div id="menuHeaderContiner">' +
-                        '<span id="menuItemSpanTitle">' +
-                            '<h4 id="menuHeader">' + menuArray[menuItem].title + '</h4>';
+                        '<div id="menu-header-continer">' +
+                        '<span id="menu-item-span-title">' +
+                            '<h4 id="menu-header">' + menuArray[menuItem].title + '</h4>';
             if (menuArray[menuItem].title == 'PIZZOR') {
-                out += '<span class="menuItemPriceSpan">' +
-                            '<h5 class="menuHeaderPrice">Vanlig</h5>' +
-                            '<h5 class="menuHeaderPrice">Familj</h5>' +
+                out += '<span class="menu-item-price-span">' +
+                            '<h5 class="menu-header-price">Vanlig</h5>' +
+                            '<h5 class="menu-header-price">Familj</h5>' +
                         '</span>';
             } 
             out += '</span></div>';
@@ -165,8 +165,8 @@ function generateMenuList(nrOfColumns) {
             // Menu extra
             out += '<ul class="list-group">';
             if (menuArray[menuItem].extra != "") {
-                out +=  '<li class="listExtra">' +
-                            '<p class="menuExtra">' + menuArray[menuItem].extra + '</p>' +
+                out +=  '<li class="list-extra">' +
+                            '<p class="menu-extra">' + menuArray[menuItem].extra + '</p>' +
                         '</li>';
             }
             // Menu list
@@ -182,31 +182,31 @@ function generateMenuList(nrOfColumns) {
                     var menuItemPrice = ''
                     if (items[i].prisFam > 0) {
                         prisFam = items[i].prisFam + ':-'
-                        menuItemPrice = 'menuItemPrice'
+                        menuItemPrice = 'menu-item-price'
                     }
                     else {
                         prisFam = '✘'
-                        menuItemPrice = 'menuItemCross'
+                        menuItemPrice = 'menu-item-cross'
                     }
                     out += 	
-                                '<li class="listItem">' +
-                                    '<span id="menuItemSpan">' +
-                                        '<h5 id="menuItemName" ' + titleColor + '>' + counter + '. ' + items[i].namn + '</h5>' +
-                                        '<span class="menuItemPriceSpanTitle">' +
-                                            '<h5 class="menuItemPrice">' + prisVan + '</h5>' +
+                                '<li class="list-item">' +
+                                    '<span id="menu-item-span">' +
+                                        '<h5 id="menu-item-name" ' + titleColor + '>' + counter + '. ' + items[i].namn + '</h5>' +
+                                        '<span class="menu-item-price-span-title">' +
+                                            '<h5 class="menu-item-price">' + prisVan + '</h5>' +
                                             '<h5 class="' + menuItemPrice + '">' + prisFam + '</h5>' +
                                         '</span>' +
                                     '</span>' +
-                                    '<p class="menuItemDescription">' + items[i].ingredienser + '</p>' +
+                                    '<p class="menu-item-description">' + items[i].ingredienser + '</p>' +
                                 '</li>';
                 } else {
                     out += 	
-                                '<li class="listItem">' +
-                                    '<span id="menuItemSpan">' +
-                                        '<h5 id="menuItemName" ' + titleColor + '>' + counter + '. ' + items[i].namn + '</h5>' +
-                                        '<h5 class="menuItemPrice">' + items[i].prisVan + ':-</h5>' +
+                                '<li class="list-item">' +
+                                    '<span id="menu-item-span">' +
+                                        '<h5 id="menu-item-name" ' + titleColor + '>' + counter + '. ' + items[i].namn + '</h5>' +
+                                        '<h5 class="menu-item-price">' + items[i].prisVan + ':-</h5>' +
                                     '</span>' +
-                                    '<p class="menuItemDescription">' + items[i].ingredienser + '</p>' +
+                                    '<p class="menu-item-description">' + items[i].ingredienser + '</p>' +
                                 '</li>';
                 }      
             }
@@ -216,5 +216,5 @@ function generateMenuList(nrOfColumns) {
         }
         out += '</div>';
     }
-    document.getElementById("menuList").innerHTML = out;
+    document.getElementById("menu-list").innerHTML = out;
 }

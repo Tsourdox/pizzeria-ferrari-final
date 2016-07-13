@@ -23,14 +23,14 @@
         <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,600,700' rel='stylesheet' type='text/css'>
         
         <!-- Google maps -->
-        <script src="http://maps.googleapis.com/maps/api/js"></script>
         <script src=googleMaps.js></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPAf2niUZhnou6L7x2kIavrwNfGt8dC84&callback=initMap" type="text/javascript"></script>
 	</head>
 
 	<body>
         <!-- NAVBAR -->
-        <nav id="mainNavBar" class="navbar navbar-fixed-top">
-            <div class="container-fluid mainBackgroundColor">
+        <nav id="main-navbar" class="navbar navbar-fixed-top">
+            <div class="container-fluid main-background-color">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle md-visible" data-toggle="collapse" data-target="#navbar-opened" onclick="switchDashColor()" aria-expanded="false">
@@ -39,16 +39,16 @@
                         <span class="icon-bar mainDashColor"></span>
                     </button>
                     <span class="navbar-brand">
-                        <span><a href="#mainView" id="brandTitle" class="mainTextColor">Ferrari</a></span>
+                        <span><a href="#main-view" id="brand-title" class="main-text-color">Ferrari</a></span>
                         <span><img src="ferrari_horse.png" style="height:40px; margin-top:-15px;"/></span>
                     </span>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-opened">
-                    <ul id="navBarMenu" class="nav navbar-nav">
-                        <li><a href="#contactInfo" class="navItemPrimary mainTextColor" onclick="collapseNavBarMenu()">ÖPPETTIDER & KONTAKT</a></li>
-                        <li><a href="#menuListHeader" class="navItemPrimary mainTextColor" onclick="collapseNavBarMenu()">MENY</a></li>
+                    <ul id="navbar-menu" class="nav navbar-nav">
+                        <li><a href="#contactInfo" class="nav-item-primary main-text-color" onclick="collapseNavBarMenu()">ÖPPETTIDER & KONTAKT</a></li>
+                        <li><a href="#menuListHeader" class="nav-item-primary main-text-color" onclick="collapseNavBarMenu()">MENY</a></li>
                         <!-- Menu titles are generated dynamicly -->
                     </ul>
                 </div><!-- /.navbar-collapse -->
@@ -57,34 +57,34 @@
         
         <!-- CONTENT -->
         <div id="content">
-            <div id="mainView" class="container-fluid">
-                <div class="row topRow">
-                    <div class="col-sm-12 col-md-6 topCard">
+            <div id="main-view" class="container-fluid">
+                <div class="row top-row">
+                    <div class="col-sm-12 col-md-6 top-card">
                         <div class="container w3-card-4 no-padding" style="width:90%; max-width: 500px;">
-                            <div class="cardContainer">
-                                <div class="cardDummy"></div>
-                                <div class="cardContent">
+                            <div class="card-container">
+                                <div class="card-dummy"></div>
+                                <div class="card-content">
                                     <h2>Luncherbjudande 85:-</h2>
                                     <p>Mån - fre: 11.00 - 15.00</p>
                                     <p>Salladsbuffé, smör, bröd, kaffe, vatten och 33cl dricka ingår.</p>
                                 </div>
                             </div>
-                            <div class="cardFooter">
+                            <div class="card-footer">
                                 <span>PIZZA</span><span>•</span><span>KEBAB</span><span>•</span><span>GRILL</span>
                             </div>
                         </div>
                     </div>
-                    <div id="contactInfo" class="col-sm-12 col-md-6 topCard">
+                    <div id="contactInfo" class="col-sm-12 col-md-6 top-card">
                         <div class="container w3-card-4 no-padding" style="width:90%; max-width: 500px;">
-                            <div class="cardContainer">
-                                <div class="cardDummy"></div>
-                                <div class="cardContent">
+                            <div class="card-container">
+                                <div class="card-dummy"></div>
+                                <div class="card-content">
                                     <span>Telefon: </span><a>031-88 31 31</a>
                                     <h2 id="opening-header">Öppetider</h2>
                                     <p>Mån - fre: 11.00 - 22.00<br>Lör - sön: 12.00 - 22.00</p>
                                 </div>
                             </div>
-                            <div class="cardFooter">
+                            <div class="card-footer">
                                 <span>Ring och beställ eller besök oss</span>
                             </div>
                         </div>
@@ -92,13 +92,13 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12 col-md-3"></div>
-                    <div class="col-sm-12 col-md-6 bottomCard">
+                    <div class="col-sm-12 col-md-6 bottom-card">
                         <div class="container w3-card-4 no-padding" style="width:90%; max-width: 500px;"">
-                            <div class="cardContainer">
-                                <div class="cardDummy"></div>
-                                <div id="googleMap" class="cardContent"></div>
+                            <div class="card-container">
+                                <div class="card-dummy"></div>
+                                <div id="googleMap" class="card-content"></div>
                             </div>
-                            <div class="cardFooter">
+                            <div class="card-footer">
                                 <span>Välkommen hit!</span>
                             </div>
                         </div>
@@ -108,11 +108,11 @@
             </div>
              
              
-            <div id="menuListHeader">
-                <h3 id="menuTextColor">MENY</h3>
+            <div id="menu-list-header">
+                <h3 id="menu-text-color">MENY</h3>
                 <p class="menu-info my-text-green">Vegetariska rätter i grönt</p>
             </div>
-            <div id="menuList" class="row">
+            <div id="menu-list" class="row">
                 <script>loadMenu()</script>
             </div>
         </div>
