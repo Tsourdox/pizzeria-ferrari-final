@@ -113,6 +113,10 @@ h1, h2, h3, h4, h5, p, a{
     padding-top: 90px;
     margin-bottom: 40px;
 }
+.card-width {
+    width:90%;
+    max-width:500px;
+}
 .card-container {
     display: inline-block;
     position: relative;
