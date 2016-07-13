@@ -1,20 +1,20 @@
 var handleMediaChange = function (mediaQueryList) {
     switch (mediaQueryList.media) {
-        case "(max-width: 991px)":
+        // Small Device / Tablet
+        case "(max-width: 991px)": 
             if (mediaQueryList.matches) {
-                console.log("Small Device / Tablet")
                 generateMenuList(2)
             }
             break
+        // Medium Device / Desktop
         case "(max-width: 1199px) and (min-width: 992px)":
             if (mediaQueryList.matches) {
-                console.log("Medium Device / Desktop")
                 generateMenuList(2)
             }
             break
+        // Large Device / Wide Screen
         case "(min-width: 1200px)":
             if (mediaQueryList.matches) {
-                console.log("Large Device / Wide Screen")
                 generateMenuList(3)
             }
             break

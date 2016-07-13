@@ -278,8 +278,6 @@ h1, h2, h3, h4, h5, p, a{
 }
 /*------FoodMenuList------*/
 
-
-
 .menu-extra {
 	color: #e90a15;
     width: 85%;
@@ -332,5 +330,9 @@ h1, h2, h3, h4, h5, p, a{
 }
 .my-text-green {
     color: #23ae29;
+}
+.closed-today {
+    color: #e90a15;
+    font-weight: bold;
 }
 /*------FoodMenuListItem------*/

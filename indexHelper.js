@@ -1,9 +1,25 @@
 $(document).ready(function () {
     $(document).click(function (event) {
         var clickover = $(event.target);
-        var _opened = $(".navbar-collapse").hasClass("navbar-collapse collapse in");
-        if (_opened === true && !clickover.hasClass("navbar-toggle")) {
-            $("button.navbar-toggle").click();
+        var _opened = $('.navbar-collapse').hasClass('navbar-collapse collapse in')
+        if (_opened === true && !clickover.hasClass('navbar-toggle')) {
+            $('button.navbar-toggle').click()
+        }
+    });
+
+    $.getJSON("http://api.dryg.net/dagar/v2.1/", function(object, status){
+        if (status == 'success') {
+            var workFeeDay = object.dagar[0]['arbetsfri dag'] == 'Ja'
+            console.log(object.dagar[0]['arbetsfri dag'])
+            if (workFeeDay) {
+                var card2Info = $('#card2-info')
+                card2Info.text('Idag har vi stängt 😬')
+                card2Info.addClass('closed-today')
+
+                var card3Info = $('#card3-info')
+                card3Info.text('Välkommen åter! 😊')
+                card3Info.addClass('closed-today')
+            }
         }
     });
 });
