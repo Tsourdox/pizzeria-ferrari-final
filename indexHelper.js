@@ -10,7 +10,9 @@ $(document).ready(function () {
     $.getJSON("http://api.dryg.net/dagar/v2.1/", function(object, status){
         if (status == 'success') {
             var workFeeDay = object.dagar[0]['arbetsfri dag'] == 'Ja'
-            if (workFeeDay) {
+            var holiday = object.dagar[0]['röd dag'] == 'Ja'
+            var flagDay = object.dagar[0]['flaggdag'] != ''
+            if (workFeeDay && holiday && flagDay) {
                 var card2Info = $('#card2-info')
                 card2Info.text('Idag har vi stängt 😬')
                 card2Info.addClass('closed-today')

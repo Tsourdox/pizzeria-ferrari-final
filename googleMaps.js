@@ -9,7 +9,7 @@ function initMap() {
     var marker = new google.maps.Marker({ position:myCenter });
     var infowindow = new google.maps.InfoWindow({ content:"Kaveldunsvägen 1" })
     
-    map.setOptions({draggable: false})
+    map.setOptions({draggable: false, scrollwheel: false})
     marker.setMap(map)
     infowindow.open(map, marker)
     google.maps.event.addListener(marker, 'click', function() {
