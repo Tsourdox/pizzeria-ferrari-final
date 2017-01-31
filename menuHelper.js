@@ -217,5 +217,10 @@ function generateMenuList(nrOfColumns) {
         }
         out += '</div>';
     }
-    document.getElementById("menu-list").innerHTML = out;
+
+    // Fixes IE issues with innerHTML
+    var tempDiv = document.createElement("div")
+    tempDiv.innerHTML = out
+    var menuList = document.getElementById("menu-list")
+    menuList.appendChild(tempDiv)
 }
