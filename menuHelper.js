@@ -19,7 +19,8 @@ var handleMediaChange = function (mediaQueryList) {
             }
             break
         default:
-            console.log("default")
+            generateMenuList(2)
+            break
     }
 }
 
