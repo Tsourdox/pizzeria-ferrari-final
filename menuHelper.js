@@ -81,7 +81,7 @@ function getMenuItemsDelta(columnMappings) {
 
 function generateMenuList(nrOfColumns) {
     // Find list collections
-    var lowestDelta = Number.MAX_SAFE_INTEGER
+    var lowestDelta = Number.MAX_VALUE
     var savedColumnMappings
     
     //-------- Awesome Algorithm --------//
