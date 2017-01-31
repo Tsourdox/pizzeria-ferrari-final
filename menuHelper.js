@@ -61,8 +61,8 @@ function generateNavBarMenuItems() {
 }
 
 function getMenuItemsDelta(columnMappings) {
-    var maxValue = Number.MIN_SAFE_INTEGER
-    var minValue = Number.MAX_SAFE_INTEGER
+    var maxValue = Number.MIN_VALUE
+    var minValue = Number.MAX_VALUE
     
     for (i=0; i < columnMappings.length; i++) {
         var sum = 0
