@@ -222,5 +222,5 @@ function generateMenuList(nrOfColumns) {
     var tempDiv = document.createElement("div")
     tempDiv.innerHTML = out
     var menuList = document.getElementById("menu-list")
-    menuList.appendChild(tempDiv)
+    menuList.replaceChild(tempDiv, menuList.firstChild)
 }
