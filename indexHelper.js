@@ -6,23 +6,6 @@ $(document).ready(function () {
             $('button.navbar-toggle').click()
         }
     });
-
-    $.getJSON("http://api.dryg.net/dagar/v2.1/", function(object, status){
-        if (status == 'success') {
-            var workFeeDay = object.dagar[0]['arbetsfri dag'] == 'Ja'
-            var holiday = object.dagar[0]['röd dag'] == 'Ja'
-            var flagDay = object.dagar[0]['flaggdag'] != ''
-            if (workFeeDay && holiday && flagDay) {
-                var card2Info = $('#card2-info')
-                card2Info.text('Idag har vi stängt 😬')
-                card2Info.addClass('closed-today')
-
-                var card3Info = $('#card3-info')
-                card3Info.text('Välkommen åter! 😊')
-                card3Info.addClass('closed-today')
-            }
-        }
-    });
 });
 function collapseNavBarMenu() {
     $('#navbar-opened').collapse('hide');
